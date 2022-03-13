@@ -1,0 +1,7 @@
+import random
+count = 0 #från början har vi noll kast
+for i in range(768):
+    s = random.randint(1,6)
+    if s ==6:
+        count +=1
+        print(count)
